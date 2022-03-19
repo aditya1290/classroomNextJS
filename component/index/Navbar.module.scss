@@ -1,0 +1,36 @@
+$base-background-color: #2f2d52;
+$base-text-color : white;
+
+$height-background-color: white;
+$height-text-color: black;
+$position-fixed : fixed;
+$w-100 : 100%;
+$z-index : 1;
+
+.topBarAtBase{
+    background-color: $base-background-color;
+    color: $base-text-color;
+    position: $position-fixed;
+    width: $w-100;
+    z-index: $z-index;
+    transition: all 0.25s ease;
+    a{
+        color: $base-text-color !important;
+        text-decoration: none;
+    }
+}
+
+.topBarAtHeight{
+    background-color: $height-background-color;
+    color: $height-text-color;
+    position: $position-fixed;
+    width: $w-100;
+    padding: 0.5rem 0rem;
+    z-index: $z-index;
+    box-shadow: 0 0 50px 0 #0f0d3250 inset;
+    a{
+        color: $height-text-color !important;
+        text-decoration: none;
+    }
+    transition: all 0.25s ease;
+}

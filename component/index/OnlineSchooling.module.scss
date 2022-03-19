@@ -1,0 +1,87 @@
+.col1{
+    height: 60vh;
+    background-color: #F1FDF9;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    p{
+        color: #555;
+        padding: 1rem;
+        max-width: 35%;
+        text-align: center;
+
+        @media screen and (max-width:1000px) {
+            max-width: 50%;
+        }
+        @media screen and (max-width:1000px) {
+            max-width: 100%;
+        }
+    }
+}
+.col2{
+    height: 60vh;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.midElement{
+    position: relative;
+    top: -20vh;
+    width: 100%;
+    height: 50vh;
+    max-width: 50vw;
+    max-height: 50vh;
+    background-color: #25234230;
+    border-radius: 2rem;
+
+    &:hover{
+        background-color: #696786;
+    }
+}
+
+.instructor{
+    padding:10% 5% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div1{
+    padding: 0 10%;
+    max-width: 45vw;
+    h3{
+        margin: 5% 0;
+    }
+    p{
+        color: #555;
+    }
+}
+.div2{
+    background-color: #555;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 2rem;
+}
+
+.learnAnywhere{
+    padding: 10% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F1FDF9;
+}
+
+.RegisterNow{
+    padding: 10%;
+    h1{
+        padding: 2rem 0;
+    }
+    p{
+        width: 50%;
+    }
+}

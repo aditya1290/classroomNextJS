@@ -1,0 +1,25 @@
+.main{
+    padding:2% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    a{
+        margin: 0 2rem;
+        padding: 0 1rem;
+    }
+}
+.list2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    a{
+        margin: 0 2rem;
+        padding: 0 1rem;
+    }
+}
